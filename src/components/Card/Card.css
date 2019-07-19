@@ -1,0 +1,33 @@
+.Card {
+  border: 1px solid #E6ECF0;
+  border-radius: 8px;
+}
+
+.Card__Img {
+  position: relative;
+  height: 250px;
+}
+
+.Card__Img img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.Card__Footer {
+  padding: 15px;
+  line-height: 22px;
+}
+
+.Card__Title {
+  font-weight: bold;
+}
+
+.Card__Text {
+  font-weight: 300;
+}
+
+.Card__Link {
+  color: #647785;
+}

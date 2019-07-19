@@ -1,0 +1,44 @@
+.red {
+  color: #E6ECF0;
+  transition: color .35s ease;
+}
+.red:active {
+  transform: scale(.85)
+}
+
+.green {
+  color: #E6ECF0;
+  transition: transform .75s, color .35s ease;
+}
+
+.dark-grey {
+  color: #647785;
+  transition: color .35s ease;
+}
+
+.light-grey {
+  color: #E6ECF0;
+  transition: color .35s ease;
+}
+
+.Reaction__Item {
+  margin-right: 25px;
+  cursor: default;
+}
+
+.fa {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Fix! */
+.red.active {
+  color: #E0245E;
+}
+.green.active {
+  color: #2DC572;
+  transform: rotate(180deg);
+}
+.light-grey.active {
+  color: #37D1D3;
+}
